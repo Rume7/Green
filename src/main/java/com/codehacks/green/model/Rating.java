@@ -20,7 +20,7 @@ public class Rating {
     @Id
     @GeneratedValue
     private UUID Id;
-    private Float rate;
+    private Double rate;
     private LocalDateTime ratingDate;
     private User user;
 

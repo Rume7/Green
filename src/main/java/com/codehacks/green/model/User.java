@@ -22,11 +22,11 @@ public class User {
 
     @NotBlank
     private String username;
-    private String firstName;
-    private String lastName;
 
     @NotBlank
     private String emailAddress;
+    private String firstName;
+    private String lastName;
     private LocalDateTime dateCreated;
     private LocalDateTime lastUpdated;
 
