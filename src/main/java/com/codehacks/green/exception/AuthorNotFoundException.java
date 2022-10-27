@@ -1,5 +1,5 @@
 package com.codehacks.green.exception;
 
-public class AuthorNotFoundException {
-    
+public class AuthorNotFoundException extends Exception {
+
 }
